@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+    
+        <title>Kevin Zhang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/47183d5423.js"></script>
+        <script src="dependencies/parallax.min.js"></script>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="javascript/index.js"></script>
+    </head>
+
+    <body>
+        
+    <div id="section-landing">
+        <div id="landing-nav">
+            <!--<i id="nav-logo" class="fa fa-free-code-camp fa-4x" aria-hidden="true"></i>-->
+
+            <div id="nav-menu">
+                <div class="menu-item" style="color: white">HOME</div>
+                <div class="menu-item" onclick="scrollTo('section-profile')">PROFILE</div>
+                <div class="menu-item" onclick="scrollTo('section-experience')">EXPERIENCE</div>
+                <div class="menu-item" onclick="scrollTo('section-projects')">PROJECTS</div>
+                <div class="menu-item" onclick="scrollTo('section-education')">EDUCATION</div>
+                <div class="menu-item" id="menu-contact" onclick="scrollTo('section-contact')">CONTACT</div>
+            </div>
+        </div>
+        <div class="centered">
+            <h1 id="landing-title" class="nova-bold">KEVIN ZHANG</h1>
+            <h1 class="landing-lead">Student | Developer | Tech Lover</h1>
+        </div>
+    </div>
+
+    <div id="section-profile" class="section container">
+        <h1 class="text-lead">Things I enjoy doing: coding, designing, and getting hammered.</h1>
+        <p class="text-content" id="profile-text">
+            I study software engineering at Concordia University.
+            In my spare time, I eat, drink, sleep, code, study, and chill.
+            Of all those things, I like coding and chilling the most; no surprise there.
+            My father once told me: "I don't care what you do in life, as long as you love it and you're good at it." I agree.<br/>
+            Anyways, here's my <a href="https://github.com/izconcept">GitHub</a>.
+        </p>
+    </div>
+
+    <div id="section-experience" class="section">
+        <h1 class="text-lead" style="text-align: center;">Work and programming experience</h1>
+
+        <h1 class="text-lead2">SOFTWARE ENGINEER INTERN</h1>
+        <h1 class="text-lead3">TRANSAT A.T. | FALL 2016</h1>
+        <ul>
+            <li><p class="text-content" style="margin-bottom: 0;">Trained a collaborative filtering travel recommender using historical transaction and flight data.</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Build a web application around the recommender system using BootStrap, PHP, MongoDB and Azure.</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Training a deep learning algorithm using social media (Facebook, Instagram) data as feature space and vacation destinations as output space.</p></li>
+        </ul>
+        <h1 class="text-lead2">HACKER</h1>
+        <h1 class="text-lead3">CONUHACKS II | 2017</h1>
+        <ul>
+            <li><p class="text-content" style="margin-bottom: 0;">Used a vulnerability in one of Instagram's Android APIs to capture stories posted by public profiles.</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Built an application using Ruby, Python, PHP, JavaScript, and jQuery to create group stories.</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Came top 6 out of 80+ teams.</p></li>
+        </ul>
+
+        <h1 class="text-lead2">SALES ASSOCIATE</h1>
+        <h1 class="text-lead3">FOOTLOCKER CANADA | 2015-PRESENT</h1>
+        <ul>
+            <li><p class="text-content" style="margin-bottom: 0;">Achieved stellar sales metrics and provided excellent customer service.</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Gained valuable team cooperation and social skills.</p></li>
+        </ul>
+
+        <h1 class="text-lead2">MERCHANDISER</h1>
+        <h1 class="text-lead3">DOLLARAMA CANADA | 2012-2014</h1>
+
+    </div>
+
+    <div id="section-projects" class="container section">
+        <h1 class="text-lead">Some of my recent projects</h1>
+
+        <div class="row">
+        <div class="col-md-4 projects-project">
+            <a href="http://trendsat.azurewebsites.net/"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">TRENDSAT</h1>
+            <h1 class="text-lead3">COLLABORATIVE FILTERING TRAVEL RECOMMENDER SYSTEM</h1>
+        </div>
+        <div class="col-md-4 projects-project">
+            <a href="https://github.com/izconcept/trelloTagSync"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">TRELLO-SYNC</h1>
+            <h1 class="text-lead3">GROUP AND MERGE TRELLO LABELS BASED OFF FUZZY STRING MATCHING</h1>
+        </div>
+        <div class="col-md-4 projects-project">
+            <a href="https://github.com/jusleg/soen341"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">STORYFLOW</h1>
+            <h1 class="text-lead3">MULTI-USER STORIES ON INSTAGRAM</h1>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-4 projects-project">
+            <a href="https://github.com/izconcept/SpoilBlock"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">SPOILBLOCK</h1>
+            <h1 class="text-lead3">TV SPOILER BLOCKING CHROME EXTENSION</h1>
+        </div>
+        <div class="col-md-4 projects-project">
+            <a href="https://github.com/izconcept/Trippy"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">TRIPPY</h1>
+            <h1 class="text-lead3">SOCIAL MEDIA TRAVEL BOT</h1>
+        </div>
+        <div class="col-md-4 projects-project">
+            <a href="https://github.com/izconcept/Dogaroo"><img class="project-img" src="http://corpusdoportugues.org/images/home1.jpg"></a>
+            <h1 class="text-lead2">DOGAROO</h1>
+            <h1 class="text-lead3">PET ADOPTION WEBSITE</h1>
+        </div>
+        </div>
+
+    </div>
+
+    <div id="section-education" class="section">
+        <h1 class="text-lead" style="text-align: center;">Education</h1>
+        <h1 class="text-lead2">CONCORDIA UNIVERSITY</h1>
+        <h1 class="text-lead3">BEng Software Engineering | Montreal, Canada | 2015-2019</h1>
+        <ul>
+            <li><p class="text-content" style="margin-bottom: 0;">3.82 cumulative GPA</p></li>
+            <li><p class="text-content" style="margin-bottom: 0;">Concordia University Engineering and Computer Science 2016 Dean's List (85th percentile)</p></li>
+        </ul>
+        <h1 class="text-lead2">John Abbott College</h1>
+        <h1 class="text-lead3">DEC Pure and Applied Sciences | Montreal, Canada | 2013-2015</h1>
+    </div>
+
+    <div id="section-contact" class="section">
+        <h1 class="text-footer">Contact me</h1>
+        <a class="contact-icon" href="https://www.linkedin.com/in/kevin-zhang-659110114?"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        <a class="contact-icon" href="https://www.github.com/izconcept"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+        <a class="contact-icon" href="mailto:izkevin52@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        <p style="color: #7D7D7F; font-size: 11px; margin-top: 15px;">© 2017 Kevin Zhang. All rights reserved.</p>
+    </div>
+
+    </body>
+</html>

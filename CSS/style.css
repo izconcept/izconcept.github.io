@@ -1,0 +1,187 @@
+h1{
+    margin: 0;
+}
+body {
+    color: #6F6F70;
+    margin: 0;
+}
+.text-lead {
+    color: rgba(26,26,26,.9);
+    font-family: garamond;
+    font-size: 38px;
+    margin-bottom: 5%;
+}
+.text-lead2 {
+    color: rgba(26,26,26,.9);
+    font-size: 20px;
+    font-family: nova-bold;
+}
+.text-lead3 {
+    color: rgba(26,26,26,.75);
+    font-size: 16px;
+    font-family: nova-bold;
+}
+.text-footer {
+    font-family: garamond;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 15px;
+}
+.text-content {
+    font-size: 16px;
+    font-family: nova-regular;
+    line-height:1.8em;
+    color: rgba(26,26,26,.6);
+}
+.section {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.centered {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+#section-landing {
+    position: relative;
+    width: 100%;
+    height: 770px;
+    background-image: url(../media/landing-bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#nav-logo {
+    padding: 30px;
+}
+#nav-logo:hover {
+    cursor: pointer;
+}
+#nav-menu {
+    float: right;
+    padding: 60px;
+}
+.menu-item {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 200;
+    color: #8F8F8F;
+    font-size: 12px;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+.menu-item:hover {
+    cursor: pointer;
+    color: white;
+}
+#menu-contact {
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+#menu-contact:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.landing-lead {
+    font-family:nova-light;
+    font-size: 22px;
+    text-align: center;
+}
+#landing-title {
+    text-align: center;
+    font-size: 60px;
+}
+#section-profile {
+    text-align: center;
+    width: 100%;
+}
+#profile-img {
+    clear: none;
+}
+#profile-text {
+    clear: none;
+}
+#section-experience {
+    text-align: left;
+    width: 100%;
+    background-color: #EDEEEF;
+}
+#section-projects {
+    text-align: center;
+    width: 100%;
+    background: transparent;
+}
+.projects-project {
+    margin-bottom: 40px;
+}
+.project-img{
+    width: 240px;
+    margin-bottom: 10px;
+}
+#section-education {
+    width: 100%;
+    text-align: left;
+    background-color: #EDEEEF;
+}
+#section-contact {
+    text-align: center;
+    width: 100%;
+    background-color: #26262A;
+    color: white;
+}
+
+.contact-icon {
+    color: #7D7D7F;
+    margin: 5px;
+    -webkit-transition: .7s; /* Safari */
+    transition: .7s;
+}
+.contact-icon:hover {
+ color: white;
+}
+
+.nova-regular {
+    font-family: nova-regular;
+}
+.nova-bold {
+    font-family: nova-bold;
+}
+.nova-light {
+    font-family: nova-light;
+}
+.garamond {
+    font-family: garamond;
+}
+
+@font-face {
+    font-family: nova-regular;
+    src: url(../media/fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: nova-bold;
+    src: url(../media/fonts/ProximaNova-Bold.otf);
+}
+@font-face {
+    font-family: nova-light;
+    src: url(../media/fonts/ProximaNova-Light.otf);
+}
+@font-face {
+    font-family: garamond;
+    src: url(../media/fonts/GaramondPremrPro-Capt.otf);
+}
+
+.light {
+    color: white;
+}
+.light-2 {
+    color: rgba(255,255,255,0.9);
+}
