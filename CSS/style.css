@@ -197,3 +197,18 @@ body {
 .light-2 {
     color: rgba(255,255,255,0.9);
 }
+
+@media (max-width: 805px) {
+    .menu-item {
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 14px;
+        float: right;
+        clear: both;
+    }
+    #nav-menu {
+        padding: 20px;
+    }
+}
