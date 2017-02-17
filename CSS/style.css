@@ -100,6 +100,12 @@ body {
     text-align: center;
     font-size: 60px;
 }
+#quote {
+    font-size: 16px;
+    font-family: nova-light;
+    color: #7D7D7F;
+    margin-top: 40px;
+}
 #section-profile {
     text-align: center;
     width: 100%;
@@ -126,6 +132,12 @@ body {
 .project-img{
     width: 240px;
     margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-transition: .7s; /* Safari */
+    transition: .7s;
+}
+.project-img:hover {
+    border: 1px solid gray;
 }
 #section-education {
     width: 100%;
