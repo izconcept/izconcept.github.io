@@ -4,6 +4,7 @@ h1{
 body {
     color: #6F6F70;
     margin: 0;
+    background-color: #26262A;
 }
 .text-lead {
     color: rgba(26,26,26,.9);
@@ -109,6 +110,7 @@ body {
 #section-profile {
     text-align: center;
     width: 100%;
+    background-color: white;
 }
 #profile-img {
     clear: none;
@@ -124,7 +126,7 @@ body {
 #section-projects {
     text-align: center;
     width: 100%;
-    background: transparent;
+    background-color: white;
 }
 .projects-project {
     margin-bottom: 40px;
@@ -132,9 +134,7 @@ body {
 .project-img{
     width: 240px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    -webkit-transition: .7s; /* Safari */
-    transition: .7s;
+    border-radius: 10px;
 }
 .project-img:hover {
     border: 1px solid gray;
