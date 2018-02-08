@@ -17,6 +17,7 @@ body {
     font-size: 20px;
     font-family: nova-bold;
     margin-top: 12px;
+    display: inline;
 }
 .text-lead3 {
     color: rgba(26,26,26,.75);
