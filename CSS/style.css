@@ -16,13 +16,14 @@ body {
     color: rgba(26,26,26,.9);
     font-size: 20px;
     font-family: nova-bold;
-    margin-top: 12px;
+    padding-top: 12px;
     display: inline;
 }
 .text-lead3 {
     color: rgba(26,26,26,.75);
     font-size: 16px;
     font-family: nova-bold;
+    margin-bottom: 12px;
 }
 .text-footer {
     font-family: garamond;
